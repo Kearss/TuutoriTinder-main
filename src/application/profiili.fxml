@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="bioTextArea" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="822.0" prefWidth="600.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="203.0" layoutX="56.0" layoutY="403.0" stroke="BLACK" strokeType="INSIDE" width="491.0" />
+      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About TutorTinder" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <ImageView fitHeight="40.0" fitWidth="340.0" layoutX="135.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/Tuutoriprofil2.png" />
+         </image>
+      </ImageView>
+      <Separator layoutX="99.0" layoutY="174.0" prefHeight="3.0" prefWidth="412.0" />
+      <Button layoutX="490.0" layoutY="25.0" mnemonicParsing="false" onAction="#switchToSceneBack" prefHeight="40.0" prefWidth="104.0" style="-fx-border-radius: 50%;" text="Main Menu">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutY="667.0" mnemonicParsing="false" onAction="#connectTutor" prefHeight="155.0" prefWidth="301.0" style="-fx-background-color: green;" text="Connect" textFill="WHITE">
+         <font>
+            <Font size="60.0" />
+         </font>
+      </Button>
+      <Button layoutX="300.0" layoutY="667.0" mnemonicParsing="false" onAction="#getNextTutor" prefHeight="155.0" prefWidth="301.0" style="-fx-background-color: red;" text="Next" textFill="WHITE">
+         <font>
+            <Font size="60.0" />
+         </font>
+      </Button>
+      <Label fx:id="nameLabel" alignment="TOP_CENTER" layoutX="7.0" layoutY="127.0" prefHeight="47.0" prefWidth="589.0" text="Aku Ankka">
+         <font>
+            <Font name="Trebuchet MS" size="30.0" />
+         </font></Label>
+      <Label fx:id="majorLabel" layoutX="156.0" layoutY="431.0" prefHeight="47.0" prefWidth="412.0" text="Liiketalous">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="68.0" layoutY="435.0" prefHeight="39.0" prefWidth="113.0" text="Major: ">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="68.0" layoutY="484.0" prefHeight="39.0" prefWidth="113.0" text="Skills:">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="skillLabel" layoutX="156.0" layoutY="476.0" prefHeight="58.0" prefWidth="422.0" text="Stuff">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="profilePicture" fitHeight="223.0" fitWidth="262.0" layoutX="181.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@AkuAnkka.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
