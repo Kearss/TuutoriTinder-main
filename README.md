@@ -1,6 +1,8 @@
 # Tuutori-Tinder
 Ohjelman tarkoitus on verkostoida opiskelijoita tuutoreihin, jos opiskelijat tarvitsevat apua omissa opiskeluissa. tällä hetkellä projekti toimii mutta siitä puuttuu erilaisia funktioita, jota voi lisätä myöhemmin.
 
+projekti oli tehty eclipsellä ja windows ubuntun serverillä 
+
 Tässä on etusivu, josta tuutori voi rekisteröidä tai opiskelija voi myöhemmin. Samassa sivussa on selaus funktio opiskelijoille, josta he voivat etsiä oikean tuutorin heidän opiskeluihin.
 
 ![etusivu](https://user-images.githubusercontent.com/16836684/154838160-4d3590e5-aef7-4b91-a795-201ee850eab3.JPG)
